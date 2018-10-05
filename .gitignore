@@ -59,3 +59,16 @@ typings/
 
 # next.js build output
 .next
+
+#zip files for alexa
+*.zip
+
+#no one needs my .ask file configs
+.ask/
+
+#no need for vscode stuff
+.vscode
+
+#github unecessary
+.github
+
