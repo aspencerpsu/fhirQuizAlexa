@@ -46,255 +46,232 @@ module.exports = {
         'a cycle indicating how many entities are contained in the current cycle the user is querying for'
       ],
       'type': 'Multiple-Choice'
+    },
+    {
+      'Why do authors use the "id" field on extensions?': [
+        'Primary use is if you want to point to something in one place in the instance from another place in the instance',
+        'If you want to sanitize the extension',
+        'To uniquely identify the extension',
+        'For reference to the identifier of an extension'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'True or false. <say-as interpret-as="spell-out">EHR</say-as>s have an infite amount of resources.': [
+        'False',
+        'True'
+      ],
+      'type': 'Boolean'
+    },
+    {
+      'What does <emphasis level="strong">NOT</emphasis> constitute as a fire resource?': [
+        'An abstract element',
+        'A single unit of data processed and addressed by the computer',
+        'Corresponds to a field in a database record',
+        'The real world instantiation of a concept',
+        'Textbox entry on your web form'
+      ],
+      'type': 'Rule-Out'
+    },
+    {
+      'Which one is a coded data type?': [
+        'HL7 abstract data types R1 and R2',
+        '<say-as interpret-as="spell-out">ISO</say-as> 9 0 0 1 data types',
+        'Lonic codes',
+        'Snomed codes'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'An element can be a': [
+        'Integer, float, string',
+        'Array, character, float',
+        'String, integer, list',
+        'Integer, Boolean, octal'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'True or false? A value set represents a uniquely identifiable set of valid concept representations where only one concept representation can be tested to determine if it is a member of the set.':[
+        'False',
+        'True'
+      ],
+      'type': 'Boolean'
+    },
+    {
+      'What does the acronym stand for in <say-as interpret-as="spell-out">ICD</say-as>?':[
+        'International Classification Domain',
+        'International Classification of Diseases',
+        'International Code Domain',
+        'International Crib of Donuts'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'Unified Codes of Units of Measure refers heavily on':[
+        '<say-as interpret-as="spell-as">ISO</say-as> 2 9 5 5 dash nineteen eighty-three & <say-as interpret-as="spell-out">ANIS</say-as> X 3 point fifty dash nineteen eighty-six',
+        '<say-as interpret-as="spell-as">HL7</say-as> and <say-as interpret-as="spell-out">FHIR</say-as>',
+        '<say-as interpret-as="spell-as">ISO</say-as> 2 2 9 0 7 & <say-as interpret-as="spell-out">ANSI</say-as> X four point fifty',
+        '<say-as interpret-as="spell-as">ISO</say-as> 9 0 0 1</say-as> only'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'Fill in the blank. Blank Definition are computational operations on sets of codes, including rules and filters.':[
+        'Intentional'
+      ],
+      'type': 'Fill-In'
+    },
+    {
+      'Which resources in <say-as interpret-as="spell-out">FHIR</say-as> cover terminology':[
+        'Code System',
+        'Forge Tracker',
+        'Codeable Concepts',
+        'Value Stream'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'Codes in Code Systems can have one of the following data types, <emphasis level="strong">EXCEPT</emphasis>': [
+        'Concept',
+        'Code',
+        'Coding',
+        'CodeableConcept'
+      ],
+      'type': 'Rule-Out'
+    },
+    {
+      'What element is used to compose a value system':[
+        'compose',
+        'filter',
+        'include',
+        'manifest'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'The Questionnaire resource consists of three types of items, <emphasis level="strong">EXCEPT</emphasis>': [
+        'Critics',
+        'Groups',
+        'Questions',
+        'Display'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'What is an Expansion Profile?': [
+        'Used to configure the behavior of a terminology server when it processes Value Set resources',
+        'Used to expand a profile of a patient',
+        'A function to expand on resource narratives post-hoc',
+        'A profile describing different code systems for a specific type of servers at the client\'s request',
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'What are the binding strengths associated with a profile terminology?': [
+        'Required, Extensible, Preferred, Example',
+        'Extensible, Preferred, Weak, Constant',
+        'Required, Preferred, Extensible, Weak',
+        'Example, Weak, Example, Required'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'True or false. Code Systems and value systems are separated resources from <say-as interpret-as="spell-out">STU3</say-as> onward': [
+        'True',
+        'False'
+      ],
+      'type': 'Boolean'
+    },
+    {
+      'Provide the name of an online tool that provides an interface for creating and editing Fire Code Systems, Value Sets, and Conceptt Maps rather than <phoneme alphabet="ipa" ph="d͡ʒeɪsən">JSON</phoneme> or <say-as interpret-as="spell-out">XML</say-as>.':[
+        "Snapper",
+        "G Forge",
+        "Synthea",
+        "Bundle"
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'What is the Fire <say-as interpret-as="spell-out">API</say-as> for Java called?':[
+        `<say-as interpret-as="spell-out">HAPI</say-as>`,
+        `<phoneme alphabet="ipa" ph="gɹɑk">GROK</phoneme>`,
+        "Maven",
+        "Pie Fire"
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'True or false. Fire has an open-license for anyone to utilize Fire semantics and sources if acknowledgement is provided to the authors':[
+        'True',
+        'False'
+      ],
+      'type': 'Boolean'
+    },
+    {
+      'Fill in the blank. Privacy policies define how individually blank health information is to be collected, accessed, used and disclosed':[
+        'Identifiable'
+      ],
+      'type': 'Fill-In'
+    },
+    {
+      'True or false. Rules made in fire are generally loose':[
+        'True',
+        'False'
+      ],
+      'type': 'Boolean'
+    },
+    {
+      'Differentials show changed and unchanged element properties of a resource':[
+        'False',
+        'True'
+      ],
+      'type': 'Boolean'
+    },
+    {
+      'The following are types of slicing in fire, <emphasis level="strong">EXCEPT</emphasis>': [
+        'Position',
+        'Value',
+        'Pattern',
+        'Exists',
+        'Profile',
+        'Type'
+      ],
+      'type': 'Rule-Out'
+    },
+    {
+      'The complete or partial list of answers to a structured Question resource is': [
+        'Questionnaire Response',
+        'Answer',
+        'Consent',
+        'Answer Response'
+      ],
+      'type': 'Multiple-Choice'
+    },
+    {
+      'True or false. A patient can be both the source and the author in a Questionnaire Response':[
+        'True',
+        'False'
+      ],
+      'type': 'Boolean'
+    },
+    {
+      'True or flase. Patient dot contact is a Backbone Element type':[
+        'True',
+        'False'
+      ],
+      'type': 'Boolean'
+    },
+    {
+      'What is the parent ancestory of type Narrative?':[
+        'Resource',
+        'Extension',
+        'Narrative',
+        'Elements',
+        'Bundle',
+        'Metadata'
+      ],
+      'type': 'Multiple-Choice'
     }
-  ],
-  QUESTIONS_DE_DE: [
-    {
-      'Rentiere haben ein sehr dickes Fell, Wie viele Haare pro Quadratzentimeter haben sie?': [
-        '13,000',
-        '1,200',
-        '5,000',
-        '700',
-        '1,000',
-        '120,000',
-      ],
-    },
-    {
-      'Der Klassiker aus dem Jahr 1964, Rudolph mit der roten Nase, wurde gedreht in? ': [
-        'Japan',
-        'USA',
-        'Finnland',
-        'Deutschland',
-        'Kanada',
-        'Norwegen',
-        'Frankreich',
-      ],
-    },
-    {
-      'Um die Rentiere des Weihnachtsmanns kümmert sich eine der Weihnachtselfen, Wie heißt sie?': [
-        'Wunorse Openslae',
-        'Alabaster Snowball',
-        'Bushy Evergreen',
-        'Pfeffer Minstix',
-      ],
-    },
-    {
-      'Wenn alle Rentiere des Weihnachtsmanns Geweihe hätten, während sie seinen Weihnachtsschlitten ziehen, wären sie alle ': [
-        'Weiblich',
-        'Männlich',
-        'Weiblich und männlich',
-        'Kann man nicht sagen',
-      ],
-    },
-    {
-      'Was essen Rentiere?': [
-        'Flechten',
-        'Gras',
-        'Blätter',
-        'Beeren',
-      ],
-    },
-    {
-      'Welche Aussage ist nicht richtig?': [
-        'Karibus leben auf allen Kontinenten',
-        'Karibus und Rentiere gehören derselben Gattung an ',
-        'Karibus sind größer als Rentiere',
-        'Rentiere leben in Skandinavien und Russland',
-      ],
-    },
-    {
-      'In welchem Jahr kam Rudolph ins Fernsehen?': [
-        '1964',
-        '1979',
-        '2000',
-        '1956',
-      ],
-    },
-    {
-      'Wer war der Sprecher für Rudolph im klassischen Film aus dem Jahr 1964?': [
-        'Billie Mae Richards',
-        'Burl Ives',
-        'Paul Soles',
-        'Lady Gaga',
-      ],
-    },
-    {
-      'Welche Handelskette verwendete 1939 die Geschichte von Rudolph mit der roten Nase?': [
-        'Montgomery Ward',
-        'Sears',
-        'Macys',
-        'Kmart',
-      ],
-    },
-    {
-      'Wie hieß das Rentier des Weihnachtsmanns namens Donner ursprünglich?': [
-        'Dunder',
-        'Donny',
-        'Dweedle',
-        'Dreamy',
-      ],
-    },
-    {
-      'Wer hat die Geschichte von Rudolph erfunden?': [
-        'Robert May',
-        'Johnny Marks',
-        'Santa',
-        'J K  Rowling',
-      ],
-    },
-    {
-      'Wo findest du keine Rentiere?': [
-        'Nordpol',
-        'Lappland',
-        'Korvatunturi Berge',
-        'Finnland',
-      ],
-    },
-    {
-      'Warum können die Rentiere des Weihnachtsmanns fliegen?': [
-        'Magischer Staub der Rentiere',
-        'Fusion',
-        'Amanita muscaria',
-        'Elfen',
-      ],
-    },
-    {
-      'Wieviele Rentierhufe gibt es hier einschließlich Rudolph?': [
-        '36',
-        '24',
-        '16',
-        '8',
-      ],
-    },
-    {
-      'Der Weihnachtsmann hat nur ein weibliches Rentier, Wie heißt es?': [
-        'Blitzen',
-        'Clarice',
-        'Cupid',
-        'Cupid',
-      ],
-    },
-    {
-      'Wie war der Name des erzählenden Schneemanns im klassischen Film Rudolph mit der roten Nase aus dem Jahr 1964?': [
-        'Sam',
-        'Frosty',
-        'Burl',
-        'Snowy',
-      ],
-    },
-    {
-      'Wie hieß der Vater von Rudolph?': [
-        'Donner',
-        'Dasher',
-        'Blixen',
-        'Comet',
-      ],
-    },
-    {
-      'Wie war der Name des Trainers der Rentierspiele im klassischen Film aus dem Jahr 1964?': [
-        'Comet',
-        'Blixen',
-        'Donner',
-        'Dasher',
-      ],
-    },
-    {
-      'Wie war im klassichen Film aus 1964 der Name des Hirsches, mit dem sich Rudolph befreundete?': [
-        'Fireball',
-        'Clarice',
-        'Jumper',
-        'Vixen',
-      ],
-    },
-    {
-      'Wie hat der Vater von Rudolph, Donner, im Film aus dem Jahr 1964 versucht, die Nase von Rudolph zu verbergen?': [
-        'Schwarzer Schlamm',
-        'Sack',
-        'Kissenbezug',
-        'Socke',
-      ],
-    },
-    {
-      'Was möchte die Misfit Elfe im Film aus dem Jahr 1964 werden anstatt eine Elfe für den Weihnachtsmann?': [
-        'Zahnarzt',
-        'Rentier',
-        'Spielzeugmacher',
-        'Kerzenmacher',
-      ],
-    },
-    {
-      'Was war die einzige Schwäche von Bumble im Film aus dem Jahr 1964?': [
-        'Konnte nicht schwimmen',
-        'War immer hungrig',
-        'Zuckerstangen',
-        'Schielte',
-      ],
-    },
-    {
-      'Was sucht Yukon Cornelius in Wirklichkeit im Film aus dem Jahr 1964?': [
-        'Pfefferminz',
-        'Gold',
-        'Indien',
-        'Polarbären',
-      ],
-    },
-    {
-      'Warum befindet sich der Zug im Film aus dem Jahr 1964 auf der Insel des fehlerhaften Spielzeugs?': [
-        'Viereckige Räder',
-        'Keine Dampfmaschine',
-        'Farbe stimmt nicht',
-        'Pfeift nicht',
-      ],
-    },
-    {
-      'Wie lautet der Name des Schachtelmännchens im Film aus dem Jahr 1964?': [
-        'Charlie',
-        'Sam',
-        'Billy',
-        'Jack',
-      ],
-    },
-    {
-      'Warum hat der Weihnachtsmann im Film aus dem Jahr 1964 Weihnachten beinahe abgesagt?': [
-        'Sturm',
-        'Kein Schnee',
-        'Kein Spielzeug',
-        'Die Rentiere waren krank',
-      ],
-    },
-    {
-      'Welches tierische Geräusch machte die Elfe im Film aus dem Jahr 1964, um den Bumble abzulenken?': [
-        'Oink',
-        'Knurr',
-        'Wauwau',
-        'Miau',
-      ],
-    },
-    {
-      'Wie lautet der Name des Goldsuchers im Film aus dem Jahr 1964?': [
-        'Yukon Cornelius',
-        'Slider Sam',
-        'Bumble',
-        'Jack',
-      ],
-    },
-    {
-      'Wie weit ziehen Rentiere auf ihren Wanderungen?': [
-        '4800 km',
-        '1100 km',
-        '800 km',
-        '0 km',
-      ],
-    },
-    {
-      'Wie schnell läuft ein Rentier?': [
-        '77 km pro Stunde',
-        '27 km pro Stunde',
-        '30 km pro Stunde',
-        '22 km pro Stunde',
-        '83 km pro Stunde',
-        '65 km pro Stunde',
-      ],
-    },
-  ],
+  ]
 };

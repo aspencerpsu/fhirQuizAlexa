@@ -91,12 +91,10 @@ function isAnswerSlotValid(intent) {
 }
 
 function isAnswerLiteralCorrect(intent, text){
+  console.log(text);
   try {
-    if (intent.slots && intent.slots.AnswerLiteral && intent.slots.AnswerLiteral.value){
-      return intent.slots.AnswerLiteral.value.trim().toLowerCase() === text.trim().toLowerCase();
-    } else {
-      return false;
-    }
+   return intent.slots && intent.slots.literal && intent.slots.literal.value ?
+      intent.slots.literal.value.trim().toLowerCase() === text.trim().toLowerCase():false;
   } catch(e){
     console.error(e);
     return false;
@@ -218,8 +216,6 @@ function handleUserGuess(userGaveUp, handlerInput) {
 
 function startGame(newGame, handlerInput) {
   const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
-  console.log(requestAttributes);
-  console.log("BABBBBY");
   let speechOutput = newGame
     ? requestAttributes.t('NEW_GAME_MESSAGE',"<say-as interpret-as='spell-out'>FHIR</say-as> Trivia")
       + requestAttributes.t('WELCOME_MESSAGE', GAME_LENGTH.toString())
