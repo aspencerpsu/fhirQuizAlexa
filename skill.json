@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Test your FHIR knowledge by testing alexa!",
+          "examplePhrases": [
+            "Alexa open fire trivia",
+            "Alexa tell fire trivia to start a game",
+            "Alexa tell fire trivia trivia I want to play"
+          ],
+          "name": "fire trivia",
+          "description": "Sample Full Description"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "arn:aws:lambda:us-west-2:496040594504:function:FHIRQuiz"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
