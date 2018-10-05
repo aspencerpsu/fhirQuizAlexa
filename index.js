@@ -286,10 +286,10 @@ const languageString = {
     translation: {
       QUESTIONS: questions.QUESTIONS_EN_US,
       GAME_NAME: 'FHIR Trivia',
-      HELP_MESSAGE: 'I will ask you %s multiple choice questions. Respond with the number of the answer. For example, say one, two, three, or four. To start a new game at any time, say, start game. ',
+      HELP_MESSAGE: 'I will ask you %s questions. Respond with the number of the answer or the answer only if it\'s a fill in the blank. For example, say one, two, three, or four for multiple choice questions. Or you can say the actual value for fill in the blanks questions. To start a new game at any time, say, start game. ',
       REPEAT_QUESTION_MESSAGE: 'To repeat the last question, say, repeat. ',
       ASK_MESSAGE_START: 'Would you like to start playing?',
-      HELP_REPROMPT: 'To give an answer to a question, respond with the number of the answer or say the phrase',
+      HELP_REPROMPT: 'To give an answer to a question, respond with the number of the answer or say the phrase for fill in the blank questions',
       STOP_MESSAGE: 'Would you like to keep playing?',
       CANCEL_MESSAGE: 'Ok, let\'s play again soon.',
       NO_MESSAGE: 'Ok, we\'ll play another time. Goodbye!',
